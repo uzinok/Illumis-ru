@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- удалить -->
+	<meta name="robots" content="noindex, nofollow" />
+	<!-- удалить -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="styles/main.css">
+	<script>
+		function dtime(num) {
+			const date = new Date();
+
+			date.setDate(date.getDate() + num);
+			var options = {
+				month: 'long',
+				day: 'numeric',
+			};
+			document.write(date.toLocaleString("en-US", options));
+		}
+	</script>
+</head>
+
+<body>
+	<!-- header -->
+	<div class="header">
+		<!-- header__container -->
+		<div class="header__container">
+			<!-- inner -->
+			<div class="header__inner">
+				<a href="#" class="header__logo">
+					<img src="./img/bbc_logo.svg" alt="#" width="105" height="30">
+					<span>Health</span>
+				</a>
+
+				<a href="#" class="header__subscribe">Subscribe</a>
+				<a href="" class="header__link-icon header__link-icon--user">
+					<span>Sign In</span>
+				</a>
+				<a href="" class="header__link-icon header__link-icon--search">
+					<span>Search</span>
+				</a>
+			</div>
+			<!-- ./inner -->
+		</div>
+		<!-- ./header__container -->
+		<!-- header__container -->
+		<div class="header__container header__nav nav">
+			<!-- inner -->
+			<div class="inner">
+				<ul class="nav__list">
+					<li><a href="#">Health</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Sport</a></li>
+					<li><a href="#">Worklife</a></li>
+					<li><a href="#">Social media</a></li>
+					<li><a href="#">Culture</a></li>
+					<li><a href="#">Music</a></li>
+					<li><a href="#">TV</a></li>
+					<li><a href="#">Podcasts</a></li>
+					<li><a class="nav__link-end" href="#"></a></li>
+				</ul>
+				<button class="nav__toggle">
+					<span class="visually-hidden">navigation</span>
+				</button>
+			</div>
+			<!-- ./inner -->
+		</div>
+		<!-- ./header__container -->
+	</div>
+	<!-- ./header -->
+
+	<!-- main -->
+	<main class="main">
+		<!-- main__header -->
+		<header class="main__header">
+			<div class="inner">
+				<picture>
+					<source media="(min-width: 768px)" srcset="./img/top.jpg" width="1000" height="496">
+					<img src="./img/top-small.jpg" alt="#" width="768" height="381">
+				</picture>
+
+				<h1>Dragons' Den investors helped women get rid of pain and depression. How did they succeed?</h1>
+			</div>
+		</header>
+		<!-- ./main__header -->
+
+		<!-- main__meta -->
+		<div class="main__meta">
+			<div class="main__container inner">
+				<p class="main__like">685</p>
+				<p class="main__meta-author">
+					<img src="img/author.png" alt="author" width="64" height="79">
+					<span>
+						<span>Author</span>
+						Jane Cumberbetch
+					</span>
+				</p>
+				<p class="main__dislike">13</p>
+
+				<div class="main__meta-grid">
+					<p><span>Views</span> 36K</p>
+					<p><span>Comments</span> 29</p>
+					<p><span>Date</span> 2 days ago</p>
+				</div>
+			</div>
+		</div>
+		<!-- ./main__meta -->
+
+		<section>
+			<div class="inner container">
+				<p>В одном из выпусков на суд инвесторов пришла девушка, которая пыталась убедить бизнесменов вложиться в средство от ПМС. В своей презентации она рассказала не только о том, что боли, депрессивное настроение и повышенный аппетит приходят к 99 из 100 женщин во время предменструального синдрома, но и о том, что учёные годами пытались создать работающий препарат от ПМС. И ей, молодому специалисту, удалось разработать средство, которое помогает. Несколько инвесторов решили вложиться в проект, и совсем скоро выйдет выпуск Dragons’ Den What Happened Next с участием молодого учёного. <b>Ну а сейчас мы хотим рассказать вам, что это за средство, как оно работает и почему его производством заинтересовалась сразу несколько мультимиллионеров.</b></p>
+				<div id="web_aside" class="web_aside"></div>
+				<p>Стейси Джеймс — молодой специалист, которая не понаслышке знает о симптомах ПМС. Во время учёбы в медицинском университете она не раз принимала участие в научных конференциях. После одной из конференций она стала активно изучать натуральные ингредиенты, которые не нарушают гормональный фон, но снимают симптомы предменструального синдрома. И ей удалось выяснить необычный факт, и прямо сейчас она расскажет вам какой.</p>
+				<figure>
+					<img src="./img/img-1.jpg" alt="#" width="656" height="448" loading="lazy">
+					<figcaption>
+						<span>Facebook</span>
+						Стейси Джеймс — врач-гинеколог, изобретатель средства от ПМС
+					</figcaption>
+				</figure>
+				<p><b><i>— Здравствуйте, спасибо, что пришли к нам на интервью. Расскажите, почему именно средство от ПМС?</i></b></p>
+				<p>— Здравствуйте, спасибо вам за приглашение. Я как гинеколог и в первую очередь девушка знаю, что ПМС беспокоит каждую женщину. У кого-то этот синдром протекает менее выраженно, но так или иначе он приносит дискомфорт. Лично мне повезло меньше и предменструальный синдром у меня проходит очень ярко. Боль в животе, спине, груди и голове, у меня болит буквально всё тело. Плюс появляются проблемы с пищеварением, моё лицо покрывают прыщи и я становлюсь очень раздражительной. Такие симптомы преследуют большинство женщин, а избавиться от них при помощи медикаментов, диеты или спорта — невозможно. А нам также приходится ходить на учёбу, работать, быть мамами и жёнами. Большинство женщин в этой ситуации не могут позволить себе несколько дней отдохнуть, что может привести к нервному срыву, депрессии и развитию гинекологических заболеваний.</p>
+				<p><b><i>— Это ужасно, но почему организм себя так ведёт в это время?</i></b></p>
+				<p>— Перед началом цикла перестраиваются гормоны, и это так отражается на организме. Чем сильнее ПМС, тем и сложнее переносится сам цикл. Он становится болезненным, нестабильным, слишком коротким или наоборот продолжительным.</p>
+				<p>Многие думают, что такой ПМС появляется из-за гинекологических проблем, например, полипов, эндометриоза или недостатка витаминов, железа. Но это не всегда так. В 95% случаев проблемы развиваются именно из-за сильного ПМС.</p>
+				<p><b><i>— Получается, что вы не понаслышке знаете, что такое ПМС и поэтому решили помочь себе и другим женщинам. И как же вам это удалось?</i></b></p>
+				<p>— Я пошла на медицинский из-за этого, так как всю жизнь мучилась от предменструального синдрома. Я перепробовала все средства, но ни одно не было эффективным. Во время учёбы я посещала медицинские конференции и форумы. И на одном из них мне удалось записаться на практику к авторитетному врачу, который занимается научной деятельностью. Он-то мне и рассказал про пользу CBD, который способен облегчать боль и спазмы, повышать концентрацию внимания, уменьшать воспаление, расслаблять мышцы и оказывать успокаивающее действие. Его активно используют в медицине, даже есть похожие средства от ПМС, но все они недостаточны эффективны и безопасны. Поэтому я решила сделать своё. Конечно, я потратила очень много средств и времени, прежде чем создать первостепенную формулу Illumis. И она уже отличалась от других средств, но была ещё не идеальной.</p>
+				<figure>
+					<img src="./img/img-2.jpg" alt="#" width="656" height="528" loading="lazy">
+					<figcaption class="p0"><span>Illumis</span></figcaption>
+				</figure>
+				<p><b><i>— Поэтому вы пришли на Dragons’ Den?</i></b></p>
+				<p>— Да. И мне удалось завоевать расположение инвесторов, и в конце концов я получила приличную сумму на исследования и развитие. Я очень благодарна, что меня выбрали. Эти деньги помогли продолжить исследования, нанять специалистов, доработать формулу, провести испытания и запустить производство.</p>
+				<p><b><i>— Расскажите подробнее о формуле препарата. Как она действует и можно ли от неё получить такой эффект, как, например, от THC?</i></b></p>
+				<p>— Перед тем, как рассказывать о главных ингредиентах, я сначала оговорюсь, что это натуральный и безопасный продукт, который в корне отличается от THC и не даёт такого же эффекта.</p>
+				<p>Два главных ингредиента — это CBD и CBG.</p>
+				<p>CBD — каннабидиол, который он не обладает опьяняющим соединением и синтезируется из Cannabis Sativa. Он известен в медицине своими мощными целебными и терапевтическими свойствами. CBD действует на мышцы, расслабляя их и снимая спазмы, уменьшает боль, снимает воспаление. При этом он повышает концентрацию внимания. Вы не чувствуете себя очень расслабленными, а наоборот, собранными и при этом спокойными. То есть это растение не повышает пульс, не нарушает сердечный ритм и не даёт нервной системе возбуждаться.</p>
+				<p>Каннабигерол, или CBG, также содержится в растении Cannabis Sativa. Он открыт позднее, чем CBD. Это cвязано с тем, что его содержание в растении не так велико, и его гораздо сложнее и дороже извлечь. Признаюсь, большая часть инвестиций ушла именно на CBG. Это и отличает Illumis от похожих средств. В моём препарате содержится чистый CBG в большом количестве. Именно этот ингредиент обладает особыми целебными свойствами. Это не только антибактериальное и противогрибковое средство, но и отличное болеутоляющее, противовоспалительное, а главное — потенциальный ингибитор рака. У него много свойств, которыми не может похвастаться ни одно средство в мире. При этом CBG также не оказывает опьяняющего действия на тело или мозг. Кроме того, CBG способствует укреплению костей и снятию бессонницы, что очень важно для женщин старше 30 лет, когда появляются первые проблемы, которые очень быстро могут привести к серьёзным последствиям.</p>
+				<figure>
+					<img src="./img/img-3.jpg" alt="#" width="656" height="448" loading="lazy">
+					<figcaption class="p0">
+						<span>Canstockphoto</span>
+					</figcaption>
+				</figure>
+				<p><b><i>— Получается, ваша формула полностью безопасна? Но что ещё в неё входит?</i></b></p>
+				<p>— Да, Illumis полностью безопасен. Это подтвердили тестирования, которые проводились в независимых лабораториях, где продукт получил сертификаты анализа (COA). Также в лабораториях были подтверждены целебные свойства препарата. Формула не была бы такой эффективной без дополнительных натуральных ингредиентов: например, витекса, который много столетий помогает при проблемах бесплодия и уменьшает симптомы, которые могут возникнуть до или во время менструального цикла женщины, такие как головные боли и нерегулярные кровотечения.</p>
+				<p>По разным причинам у женщин меняется соотношение нейромедиаторов, что влияет на психоэмоциональное состояние, настроение, репродуктивную систему и сексуальное поведение. Доказано: у девяти женщин из десяти проблемы со здоровьем обусловлены именно этой причиной. Современные лекарства направлены на решение одной конкретной проблемы, при этом не устраняют настоящий источник заболевания. Illumis предназначен для комплексного оздоровления женского организма, его регулярный приём стабилизирует эмоциональное состояние, устраняет проблемы в интимной и репродуктивной сферах.</p>
+				<figure>
+					<img src="./img/img-4.jpg" alt="#" width="656" height="688" loading="lazy">
+					<figcaption class="p0">
+						<span>Illumis</span>
+					</figcaption>
+				</figure>
+				<p><b><i>— Это удивительно. Вы проделали огромную работу, чтобы создать это средство. Но я до конца не понимаю, как оно работает.</i></b></p>
+				<p>— У всех людей есть эндоканнабиоидная система (ECS). Эта система состоит из каннабиноидных рецепторов (CB₁ и CB₂), которые взаимодействуют с каннабиноидами, такими как CBD и CBG. Вы удивитесь, но оба эти рецептора (CB₁ и CB₂) экспрессируются в матке, других жизненно важных органах, нервной системе и костях. Вот почему CBD и CBG помогают при многих проблемах, связанных с судорогами, гормональным дисбалансом, настроением, беспокойством, воспалением. При этом они делают друг друга сильнее, потому что CBD более эффективен для физического состояния тела, а CBG помогает при стрессе, психоэмоциональном напряжении, депрессии и неврологической дисгармонии. Дополнительные натуральные ингредиенты также нормализуют баланс женских гормонов в организме, регулируют цикл, снимают болевые ощущения, облегчают течение цикла.</p>
+				<p>Также Illumis:</p>
+				<ul>
+					<li>блокирует медиаторы воспаления;</li>
+					<li>повышает активность мозгового медиатора GABA, тормозящего боль;</li>
+					<li>стимулирует выработку серотонина — «гормона радости»;</li>
+					<li>уменьшает силу болевых импульсов;</li>
+					<li>нейтрализует сигналы боли, поступающие в мозг;</li>
+					<li>снижает пульсацию гладкой мускулатуры при спазмах;</li>
+					<li>снимает тошноту и рвоту, которыми нередко сопровождается сильная боль;</li>
+					<li>смягчает течение хронических болей на фоне артрита, радикулита, гастрита, мигрени и других заболеваний;</li>
+					<li>предотвращает обострения хронических заболеваний и их осложнения (в том числе и образование опухолей).</li>
+				</ul>
+				<figure>
+					<img src="./img/img-5.jpg" alt="#" width="656" height="448" loading="lazy">
+					<figcaption>
+						<span>BBC</span>
+						Стейси Джеймс со своим детищем
+					</figcaption>
+				</figure>
+				<p><b><i>— Неудивительно, что ваша презентация покорила сердца инвесторов, и вам помогли создать это средство. Но где его можно приобрести?</i></b></p>
+				<p>— На данный момент Illumis, к большому сожалению, — эксклюзивная продукция, поэтому ещё не продаётся в аптеках. При этом первая партия разошлась за пару дней. Сейчас готова вторая партия, и её можно приобрести на сайте товара, который мы сделали специально для удобства заказа. Вам не нужен рецепт от врача, так как средство не имеет запрещённых веществ и полностью натуральное.</p>
+				<p>— Это, несомненно, радует. Спасибо большое за интервью, вашу работу и за то, что пытаетесь изменить мир к лучшему!</p>
+				<p>— Я всегда была за инновации и рада, что у меня получается двигаться в правильном направлении. Надеюсь, Illumis поможет каждой женщине и поэтому дарю скидку 50 % всем, кто успеет заказать продукт из второй партии.</p>
+				<figure>
+					<img src="./img/img-6.jpg" alt="#" width="656" height="448" loading="lazy">
+					<img src="./img/prod.png" alt="Illumis" class="prod" width="146" height="353" loading="lazy">
+					<figcaption class="p0">
+						<span>Illumis</span>
+					</figcaption>
+				</figure>
+				<div class="button-wrap">
+					<a href="#" class="button">Заказать Illumis
+						<br>со скидкой 50%</a>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="inner container">
+				<h2>Related Topics</h2>
+				<ul class="topics">
+					<li><a href="#">PMS</a></li>
+					<li><a href="#">Medicinal cannabis</a></li>
+					<li><a href="#">Illumis</a></li>
+					<li><a href="#">Health</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="comments">
+			<div class="container">
+				<div class="inner">
+					<h2>Comments</h2>
+					<!-- comments__header -->
+					<div class="comments__header">
+						<h3>Join the conversation</h3>
+						<label>
+							Show
+							<select>
+								<option>Oldest first</option>
+							</select>
+						</label>
+					</div>
+					<!-- ./comments__header -->
+
+					<ul class="comments__list">
+
+						<li class="comments__item">
+							<div class="comments__item-header">
+								<div class="comments__ava">M</div>
+								<p class="comments__name">Mary Thompson</p>
+								<p class="comments__date">10:20 <script>
+										dtime(-2);
+									</script>
+								</p>
+							</div>
+							<p>Thanks, I’m gonna order it for myself.</p>
+							<div class="comments__likes">
+								<span class="comments__likes-up">172</span>
+								<span class="comments__likes-down">2</span>
+							</div>
+						</li>
+
+						<li class="comments__item">
+							<div class="comments__item-header">
+								<div class="comments__ava">M</div>
+								<p class="comments__name">Megan Wild</p>
+								<p class="comments__date">10:22 <script>
+										dtime(-2);
+									</script>
+								</p>
+							</div>
+							<p>I personally don't have any issues of this kind. Dunno, when they talk about pain and a bad mood, it seems to me that they are exaggerating.</p>
+							<div class="comments__likes">
+								<span class="comments__likes-up">5</span>
+								<span class="comments__likes-down">1</span>
+							</div>
+						</li>
+
+						<li class="comments__item">
+							<div class="comments__item-header">
+								<div class="comments__ava">M</div>
+								<p class="comments__name">Margo Kovalev</p>
+								<p class="comments__date">10:29 <script>
+										dtime(-2);
+									</script>
+								</p>
+							</div>
+							<p>You know, everyone's body is different. My pain was so terrible that I could hardly get out of bed for three days, and 10 days before my periods I simply turned into a ball of nerves, I was irritated by EVERYTHING. Fortunately, I found out about Illumis, otherwise I don’t know how much longer I would have suffered. This is the only product that whipped me into shape, both internally and externally.</p>
+							<div class="comments__likes">
+								<span class="comments__likes-up">66</span>
+								<span class="comments__likes-down">6</span>
+							</div>
+						</li>
+
+						<li class="comments__item">
+							<div class="comments__item-header">
+								<div class="comments__ava">R</div>
+								<p class="comments__name">Roxy Hunt</p>
+								<p class="comments__date">11:02 <script>
+										dtime(-2);
+									</script>
+								</p>
+							</div>
+							<p>I also suffered from PMS symptoms, I was twitchy and angry. None of the sedatives helped, nor did the painkillers. As soon as I tried Illumis, I went from being an evil witch to being a fairy.</p>
+							<div class="comments__likes">
+								<span class="comments__likes-up">109</span>
+								<span class="comments__likes-down">15</span>
+							</div>
+						</li>
+
+						<li class="comments__item">
+							<div class="comments__item-header">
+								<div class="comments__ava">H</div>
+								<p class="comments__name">Helen Jones</p>
+								<p class="comments__date">11:27 <script>
+										dtime(-2);
+									</script>
+								</p>
+							</div>
+							<p>I’ve been experiencing torture every month since the age of 12... and my periods last 7 days. And 10 days BEFORE I feel I’m not myself anymore… I checked with gynecologists, there are no deviations, they say…  my body just works like that! It’s just terrible. I'm going to try this, hope it helps…</p>
+							<div class="comments__likes">
+								<span class="comments__likes-up">240</span>
+								<span class="comments__likes-down">37</span>
+							</div>
+						</li>
+
+						<li class="comments__item">
+							<div class="comments__item-header">
+								<div class="comments__ava">H</div>
+								<p class="comments__name">Heather Beri</p>
+								<p class="comments__date">09:59 <script>
+										dtime(-1);
+									</script>
+								</p>
+							</div>
+							<p>I can relate! Periods are the worst thing that ever happened in my life! But with Illumis, I forgot about this nightmare! And most importantly, I am delighted with the composition! A very effective remedy, all-natural and does not harm the internal organs and the nervous system.</p>
+							<div class="comments__likes">
+								<span class="comments__likes-up">82</span>
+								<span class="comments__likes-down">5</span>
+							</div>
+						</li>
+
+					</ul>
+					<div class="button-wrap">
+						<a href="#" class="button">
+							Заказать Illumis
+							<br>
+							со скидкой 50%
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="inner" id="wap_aside">
+					<div class="aside" id="aside">
+						<h2>Top Stories</h2>
+						<ul class="aside__list">
+
+							<li>
+								<img src="./img/aside-1.jpg" alt="#" loading="lazy" width="240" height="144">
+								<a href="#">Medicinal cannabis helps cancer pain</a>
+								<span>4 days ago • 1089 comments</span>
+							</li>
+
+							<li>
+								<img src="./img/aside-2.jpg" alt="#" loading="lazy" width="240" height="153">
+								<a href="#">Vaping: high lead and nickel found in illegal vapes</a>
+								<span>2 days ago • 394 comments</span>
+							</li>
+
+							<li>
+								<img src="./img/aside-3.jpg" alt="#" loading="lazy" width="240" height="153">
+								<a href="#">Magic CBG</a>
+								<span>6 days ago • 553 commentsents</span>
+							</li>
+
+							<li>
+								<img src="./img/aside-4.jpg" alt="#" loading="lazy" width="240" height="153">
+								<a href="#">The Dutch solution to stress</a>
+								<span>5 hours ago • 77 comments</span>
+							</li>
+
+							<li>
+								<img src="./img/aside-5.jpg" alt="#" loading="lazy" width="240" height="153">
+								<a href="#">Medical effects of cannabis components</a>
+								<span>yesterday • 261 comments</span>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- ./main -->
+
+	<div class="footer">
+		<div class="container">
+			<div class="inner">
+				<a href="#" class="footer__logo">
+					<img src="./img/bbc_logo-light.svg" alt="#" width="112" height="32" loading="lazy">
+					BBC News Services
+				</a>
+			</div>
+			<div class="footer__first-line">
+				<ul class="inner">
+					<li><a href="#" class="footer__link-icon footer__link-icon--mobile">On your mobile</a></li>
+					<li><a href="#" class="footer__link-icon footer__link-icon--mic">On smart speakers</a></li>
+					<li><a href="#" class="footer__link-icon footer__link-icon--letter">Get news alerts</a></li>
+					<li><a href="#" class="footer__link-icon footer__link-icon--envelope">Contact BBC News</a></li>
+				</ul>
+			</div>
+			<div class="footer__middle-line">
+				<ul class="inner">
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">About the BBC</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Cookies</a></li>
+					<li><a href="#">Accessibility Help</a></li>
+					<li><a href="#">Parental Guidance</a></li>
+					<li><a href="#">Why you can trust the BBC</a></li>
+					<li><a href="#">Do not share or sell my info</a></li>
+					<li><a href="#">Advertise with us</a></li>
+				</ul>
+			</div>
+			<div class="inner">
+				<p>© <script>document.write((new Date).getFullYear());</script> BBC. The BBC is not responsible for the content of external sites. <a href="#">Read about our approach to external linking.</a></p>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		const wapAside = document.querySelector('#wap_aside');
+		const webAside = document.querySelector('#web_aside');
+		const Aside = document.querySelector('#aside');
+		let check = 'web';
+
+		checkAside();
+
+		window.addEventListener('resize', checkAside);
+
+		function checkAside() {
+			if (window.innerWidth > 990 && check == 'web') {
+				webAside.append(aside);
+				check = 'wap';
+			}
+			if (window.innerWidth < 990 && check == 'wap') {
+				wapAside.append(aside);
+				check = 'web';
+			}
+		}
+	</script>
+
+</body>
+
+</html>

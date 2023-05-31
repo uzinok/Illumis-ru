@@ -1,0 +1,144 @@
+.footer {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	color: #ffffff;
+	background-color: #0A051E;
+
+	& a {
+		color: inherit;
+		transition: opacity var(--transition-duration) var(--transition-function);
+
+		&:hover {
+			opacity: 0.7;
+		}
+
+		&:active {
+			opacity: 0.5;
+		}
+	}
+
+	& p {
+		font-size: 10px;
+		line-height: 16px;
+		letter-spacing: 0.01em;
+
+		& a {
+			font-weight: 600;
+		}
+	}
+}
+
+.footer__logo {
+	display: flex;
+	align-items: center;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 29px;
+	text-decoration: none;
+	letter-spacing: 0.04em;
+
+	@media (max-width: @max-md) {
+		& img {
+			display: none;
+		}
+	}
+
+	@media (min-width: @min-md) {
+		& img {
+			margin-right: 28px;
+		}
+	}
+}
+
+.footer [class*="line"] {
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		right: -16px;
+		bottom: 0;
+		left: -16px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	}
+}
+
+.footer__first-line .inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	list-style-type: none;
+	row-gap: 16px;
+
+	@media (min-width: @min-md) {
+		justify-content: space-between;
+	}
+
+	& li {
+		margin-right: 16px;
+	}
+}
+
+.footer__link-icon {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	text-decoration: none;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		margin-right: 7px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+
+	&--mobile::before {
+		width: 10px;
+		height: 17px;
+		background-image: url(../../img/mobile.svg);
+	}
+
+	&--mic::before {
+		width: 12px;
+		height: 18px;
+		background-image: url(../../img/mic.svg);
+	}
+
+	&--letter::before {
+		width: 17px;
+		height: 17px;
+		background-image: url(../../img/letter.svg);
+	}
+
+	&--envelope::before {
+		width: 17px;
+		height: 14px;
+		background-image: url(../../img/envelope.svg);
+	}
+}
+
+.footer__middle-line .inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	list-style-type: none;
+
+	& a {
+		margin-right: 1em;
+		font-weight: 600;
+		font-size: 10px;
+		line-height: 20px;
+		text-decoration: none;
+		letter-spacing: 0.01em;
+	}
+}
